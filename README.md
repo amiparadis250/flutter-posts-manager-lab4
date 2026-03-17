@@ -1,17 +1,66 @@
-# posts
+# Posts Manager
 
-A new Flutter project.
+A Flutter mobile app for viewing, creating, editing, and deleting posts using the [JSONPlaceholder](https://jsonplaceholder.typicode.com) test API.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Screens
+| Screen | Description |
+|--------|-------------|
+| Post List | Home screen — all posts in a card list |
+| Post Detail | Full view of a single post |
+| Post Form | Create or edit a post |
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## API
+**Base URL:** `https://jsonplaceholder.typicode.com/posts`
+
+| Operation | Method | Endpoint |
+|-----------|--------|----------|
+| Get all posts | `GET` | `/posts` |
+| Create a post | `POST` | `/posts` |
+| Update a post | `PUT` | `/posts/{id}` |
+| Delete a post | `DELETE` | `/posts/{id}` |
+
+---
+
+## Project Structure
+```
+lib/
+├── main.dart
+├── models/post.dart
+├── services/api_service.dart
+└── screens/
+    ├── post_list_screen.dart
+    ├── post_detail_screen.dart
+    └── post_form_screen.dart
+```
+
+---
+
+## Run & Build
+```bash
+flutter pub get
+flutter run
+
+# Build APK
+flutter build apk --release
+```
+
+---
+
+## Dependencies
+```yaml
+http: ^1.2.0
+```
+
+> Requires internet connection at runtime. `INTERNET` permission declared in `AndroidManifest.xml`.
+
+---
+
+## Screenshots
+
+<!-- Add your screenshots below -->
+
