@@ -4,6 +4,12 @@ A Flutter mobile app for viewing, creating, editing, and deleting posts using th
 
 ---
 
+## Screenshots
+
+<!-- Add your screenshots below -->
+
+---
+
 
 ## Screens
 | Screen | Description |
