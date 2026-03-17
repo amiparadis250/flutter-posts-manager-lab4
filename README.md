@@ -11,14 +11,7 @@ A Flutter mobile app for viewing, creating, editing, and deleting posts using th
 ---
 
 
-## Screens
-| Screen | Description |
-|--------|-------------|
-| Post List | Home screen — all posts in a card list |
-| Post Detail | Full view of a single post |
-| Post Form | Create or edit a post |
 
----
 
 ## API
 **Base URL:** `https://jsonplaceholder.typicode.com/posts`
@@ -32,19 +25,7 @@ A Flutter mobile app for viewing, creating, editing, and deleting posts using th
 
 ---
 
-## Project Structure
-```
-lib/
-├── main.dart
-├── models/post.dart
-├── services/api_service.dart
-└── screens/
-    ├── post_list_screen.dart
-    ├── post_detail_screen.dart
-    └── post_form_screen.dart
-```
 
----
 
 ## Run & Build
 ```bash
@@ -66,7 +47,4 @@ http: ^1.2.0
 
 ---
 
-## Screenshots
-
-<!-- Add your screenshots below -->
 
