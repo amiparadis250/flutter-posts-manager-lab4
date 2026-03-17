@@ -5,9 +5,6 @@ A Flutter mobile app for viewing, creating, editing, and deleting posts using th
 ---
 
 ## Screenshots
-
-<!-- Add your screenshots below -->
-
 ---
 
 ![Homescreen](https://github.com/user-attachments/assets/fb1291bf-c59d-47a5-a86f-0c64323e5f91)
@@ -15,11 +12,6 @@ A Flutter mobile app for viewing, creating, editing, and deleting posts using th
 ![Deleting post  alert](https://github.com/user-attachments/assets/93b94d4f-676c-4a3d-af8c-7e45d926411c)
 ![Editing post screen](https://github.com/user-attachments/assets/e892f23f-0b6b-4561-bf40-972a0528819f)
 ![Creating  Post screen](https://github.com/user-attachments/assets/2157efca-ceb0-4fd9-9642-3196b7d1a9d8)
-
-
-
-
-
 
 ## API
 **Base URL:** `https://jsonplaceholder.typicode.com/posts`
@@ -32,8 +24,6 @@ A Flutter mobile app for viewing, creating, editing, and deleting posts using th
 | Delete a post | `DELETE` | `/posts/{id}` |
 
 ---
-
-
 
 ## Run & Build
 ```bash
